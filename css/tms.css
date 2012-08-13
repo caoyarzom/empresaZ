@@ -1,0 +1,32 @@
+#slider .slider {margin:44px 0px 0 4px; background: url(../images/slider_bg.png) no-repeat;height:400px;position:relative;}
+#slider .items {display:none}
+
+#slider .slider .pic{position:relative;margin:10px;}
+
+#slider .banner {width:311px;height:369px;left: 639px;top:10px;position:absolute;color:#3d581b;font:12px/24px Arial, Helvetica, sans-serif;}
+#slider .banner .title{font-size: 50px; line-height: 60px; color: #fff;text-transform:uppercase;letter-spacing:-1px;margin: 0 0 26px -5px;}
+#slider .banner .title2{font-size: 16px; line-height: 20px; color: #38211d;text-transform:uppercase;letter-spacing:3px;margin: 0 0 36px 0;}
+#slider .banner .text{padding: 0 20px 0 0;}
+#slider .banner .more{box-shadow: 0px 4px 6px #476319;position:relative;display:block;padding: 20px 0 20px 23px;width:286px;letter-spacing:3px;margin:65px 10px 14px 2px;font-size: 16px; line-height: 20px; color: #fff;text-shadow: 0 4px 10px rgba(85,41,33, 0.26);text-transform:uppercase; background: url(../images/more1.jpg) repeat-x #1f0f0d;border-radius:5px;}
+#slider .banner .more:after{position:absolute;display:block;right:8px;top:13px;width:33px;height:33px;background: url(../images/more1_a.png) no-repeat;content:"";}
+#slider .banner .more:hover:after{background-position:0 -33px;}
+#slider .banner .more:hover{background-position:0 bottom;}
+
+.img-pags{position:relative;width:960px;float:left;padding: 28px 0 0 0px;margin-left:50px;}
+.img-pags li:after, .img-pags li:first-child:before{display:block;position: absolute;right:-1px;bottom:0;width:1px;height:146px;background: url(../images/pags_li.jpg) no-repeat;content:"";}
+.img-pags li:first-child:before{left:0;}
+#pages .img-pags li a{text-transform:uppercase;font-size: 16px;letter-spacing:3px;line-height: 20px; color: #fff;text-align:center;height:134px;display:block;padding: 19px 0 0;}
+.img-pags li a img{margin-bottom:12px;}
+.img-pags li{float:left;width:179px;position:relative;background: url(../images/pags_li_h.png) 0 250px repeat-x;}
+.img-pags li:hover, .img-pags li.current{background-position:0 0;}
+
+.pags_box{overflow:hidden;}
+.slider_buttons{float:left;padding: 34px 0 0 5px;width:181px;}
+.capabil{font-size: 30px; line-height: 36px; letter-spacing:-1px; color: #fff; text-transform:uppercase;}
+.capabil span{margin-top:-6px;display:block;}
+
+.buttons{overflow:hidden;margin: 12px 0 0;display:inline-block;border-radius:4px;box-shadow: 0 4px 10px #60a100;}
+.buttons .btn{display:block;float:left;width:52px;height:40px;}
+.buttons .prev{background: url(../images/prev.png) no-repeat;}
+.buttons .next{background: url(../images/next.png) no-repeat;width:51px;}
+.buttons .btn:hover{background-position:0 -40px;}

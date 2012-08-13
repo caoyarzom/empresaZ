@@ -1,0 +1,19 @@
+  /* Contact form */
+#contact-form {padding:0px 0 0 0;}
+#contact-form .success {width:246px;padding:10px;}
+#contact-form textarea, #contact-form input {margin:0;font-size:12px; border:1px solid #e7e7e7; color:#8e847c; padding:11px 7px 12px;outline:none; position:relative; font-family:Arial, Helvetica, sans-serif;background:#fff;border-radius:5px;}
+#contact-form input {width:214px;}
+#contact-form textarea {overflow:auto; width:334px; height:175px;resize:vertical; float:left; margin: 0 0 0 0;}	
+#contact-form label {display:block;min-height:50px;overflow:hidden;}	
+#contact-form label.message { display:block; padding-bottom:0; }
+#contact-form .error, #contact-form .empty, #contact-form .success {display:none;}	
+#contact-form .error, #contact-form .empty {text-align:left; color:red; font-size:11px; clear:both;}
+#contact-form .buttons2 {overflow:hidden;position:relative; clear:both; padding-top:12px;}
+#contact-form .buttons2 a {
+	cursor:pointer;
+	margin-top:0;
+  margin-right:18px;
+	text-align:center;
+}
+#contact-form span{ display:block; margin: 0px 0 0 5px;}
+textarea{resize: none !important;}

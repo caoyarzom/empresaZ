@@ -1,0 +1,24 @@
+nav{ position:relative; margin: 1px 0 14px 0;float:right;background: url(../images/nav_bg.jpg) repeat-x #e1e3de;min-height:70px;border-radius:4px;box-shadow: 0px 4px 10px #476319;line-height: 18px;}
+.sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
+.sf-menu ul li {width:100%}
+.sf-menu li {float:left;position:relative}
+
+.sf-menu>li>a{display:block;text-align:center;position:relative; font-size: 11px; color:#3c1e19 !important;text-transform:uppercase;font-weight:bold;padding: 27px 0 25px;}
+.sf-menu>li>a:hover,.sf-menu>li.current>a,.sf-menu>li.sfHover>a{color:#fff !important;text-decoration:none;}
+
+.sf-menu>li{width:150px;background: url(../images/nav_li.jpg) right 0 repeat-y;}
+.sf-menu>li:hover,.sf-menu>li.current,.sf-menu>li.sfHover{background: url(../images/nav_li_h.jpg) 50% 0 repeat-x #200f0d;}
+
+.sf-menu a{}
+
+.sf-menu .f_item{border-radius:4px 0 0 4px;}
+.sf-menu .l_item{border-radius: 0 4px 4px 0;background:none;}
+
+/*================================>> 2 Level <<========================================*/
+.sf-menu li ul,.sf-menu li.sfHover ul{left:0;top:70px;width: 132px;padding:37px 9px 36px 9px; border-radius:5px; background: url(../images/sub_ul.jpg) 0 bottom repeat-x #332220; z-index:99}
+.sf-menu li ul li{margin: 0 0;width:132px; background: url(../images/sub_li.jpg) 0 -100px repeat-x; border-radius:5px;}
+.sf-menu li ul li a{font-size:11px;color:#fff !important;text-align:center;text-transform:uppercase;display:block;text-shadow: 0 1px 1px rgba(0,0,0,0.22);padding: 6px 0 6px;}
+.sf-menu li li a:hover, .sf-menu li.sfHover li.sfHover>a{text-decoration:none;}
+.sf-menu li li:hover, .sf-menu li.sfHover li.sfHover{background-position:0 0;background-color:#402720;}
+/*================================>> 3 Level <<========================================*/
+.sf-menu li li ul{left:142px !important;top:-34px !important; padding-top:34px !important;}
