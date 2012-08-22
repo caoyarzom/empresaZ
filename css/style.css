@@ -45,14 +45,15 @@ a.button1:hover{ background:#3d2220;color:#fff;}
 .block{ display:block;}
 .inline-block{ display:inline-block;}
 /*================================>> Global Blocks <<========================================*/
-.block1{background: url(../images/block1.jpg) 50% 0 no-repeat;border-bottom:9px solid #29130f;min-height:169px;position:relative;z-index:10;}
+.block1{background: url(../images/block1.jpg) 50% 0 no-repeat;border-bottom:4px solid #fff;min-height:169px;position:relative;z-index:10;}
 .h_750{height:750px;}
 
 .block2{background: url(../images/block2.jpg) 50% 0 no-repeat #2e1c1a;padding: 31px 0 37px;}
 
 .block3{background:#f9f7f6;position:relative;z-index:1;}
 
-.block4{background: url(../images/block4.jpg) repeat-x;}
+/* .block4{background: url(../images/block4.jpg) repeat-x;} */
+.block4{background-color:#29130F;}
 
 /*********************************header*************************************/
 
@@ -231,6 +232,6 @@ a.img_wrap2:hover{background-color:#d9d7d5;border-color:#d9d7d5;}
 footer {padding:34px 5px 35px;overflow:hidden;line-height:20px;}
 .privacy{float:left;}
 footer .social{ overflow:hidden;float:right;letter-spacing:2px;margin: -3px 0 0 0;}
-footer .social a{ display:inline-block; margin-left:8px;font-size: 13px; color: #38211d !important;text-shadow:1px 1px rgba(68,43,38,0.36);text-transform:uppercase;background: url(../images/social_str.jpg) left 5px no-repeat;padding-left:9px;}
+footer .social a{ display:inline-block; margin-left:8px;font-size: 13px; color: #fff !important;text-shadow:1px 1px rgba(68,43,38,0.36);text-transform:uppercase;background: url(../images/social_str.jpg) left 5px no-repeat;padding-left:9px;}
 footer .social a:first-child{background:none;}
 footer .social a:hover{text-decoration:underline !important;}
